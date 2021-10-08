@@ -1,0 +1,9 @@
+server:
+  port: 8010
+spring:
+  application:
+    name: openfeign-hello
+# 日志
+logging:
+  level:
+    com.sxl.springcloud.basic.service.HelloFeignService: debug
